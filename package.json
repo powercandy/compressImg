@@ -1,0 +1,29 @@
+{
+  "name": "compress-img",
+  "version": "1.0.0",
+  "description": "本地压缩图片，便于开发",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node scripts/compress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powercandy/compressImg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powercandy/compressImg/issues"
+  },
+  "homepage": "https://github.com/powercandy/compressImg#readme",
+  "dependencies": {
+    "imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "ora": "^3.0.0"
+  }
+}
